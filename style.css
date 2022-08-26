@@ -1,0 +1,94 @@
+body{
+    background-color: gray;
+}
+
+@font-face {
+    font-family: "Avenir", "ITC Avant Garde Gothic Pro";
+    src: url("Avenir.ttc");
+    
+}
+
+@font-face {
+    font-family:"ITC Avant Garde Gothic Pro";
+    src: url("Avenir.ttc");
+    
+}
+
+.productText{
+    font-family: "Avenir";
+    font-style: Book;
+    font-size: 12.8px;
+    line-height: 20.48px;
+    width: 149px;
+    height: 40px;
+}
+
+
+.yaziTip{
+    font-family: Avenir;
+}
+
+.yaziTip2{
+    font-family: ITC Avant Garde Gothic Pro;
+}
+
+.AnaResim{
+    width: 720px;
+    height: 864px;
+}
+
+
+span{
+    z-index: 1;
+}
+
+
+svg:hover{
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+            
+    .mobileScreen{
+        color: white;
+    }
+    .mobileScreenPosition{
+        position: absolute;
+        top: 270px;
+        
+    }
+    
+    .productMobileImage{
+        width: 148px;
+        height: 200px;
+    }
+    
+    
+    .productMobile{
+        overflow: scroll;
+    }
+    h4{
+        font-size: 10px;
+    }
+    
+    
+}
+@media only screen and (min-width: 500px) {
+    .productTablet{
+        overflow: scroll;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .productDesktop{
+        overflow: hidden;
+    }
+
+    .product{
+        width: 230px;
+        height: 310px;
+    }
+}
